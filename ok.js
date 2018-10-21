@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BitTube No Offline
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  BitTube Never Stop Ever Again
 // @author       ReaperBot
 // @updateURL    https://raw.githubusercontent.com/rvina/js/master/ok.js
@@ -24,7 +24,9 @@
         'https://bit.tube/play?hash=BRzOcz2zbfB4GugyXrNX&channel=78899',
         'https://bit.tube/play?hash=BRFkQ25IaF4JGt0dnpXk&channel=78899',
         'https://bit.tube/play?hash=BRs9cTUOLJmmnNZg8JDG&channel=137892',
-        'https://bit.tube/play?hash=BRlnqjzTFF54tknNmGZT&channel=78900'
+        'https://bit.tube/play?hash=BRlnqjzTFF54tknNmGZT&channel=78900',
+        'https://bit.tube/play?hash=BRzuKo4xi0bmyRWXjxgz&channel=78906',
+        'https://bit.tube/play?hash=BR076xW7ShOfWfWJAoBS&channel=78901'
     ];
     
     setInterval(mySearch, 5000);
