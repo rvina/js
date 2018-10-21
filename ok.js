@@ -4,6 +4,8 @@
 // @version      1.0.0
 // @description  BitTube Never Stop Ever Again
 // @author       ReaperBot
+// @updateURL    https://raw.githubusercontent.com/rvina/js/master/ok.js
+// @downloadURL  https://raw.githubusercontent.com/rvina/js/master/ok.js
 // @match        *.bit.tube/*
 // @grant        none
 // ==/UserScript==
