@@ -23,7 +23,8 @@
         'https://bit.tube/play?hash=BRc0Q1xSlfQitEM1QAdA&channel=77280',
         'https://bit.tube/play?hash=BRzOcz2zbfB4GugyXrNX&channel=78899',
         'https://bit.tube/play?hash=BRFkQ25IaF4JGt0dnpXk&channel=78899',
-        'https://bit.tube/play?hash=BRs9cTUOLJmmnNZg8JDG&channel=137892'
+        'https://bit.tube/play?hash=BRs9cTUOLJmmnNZg8JDG&channel=137892',
+        'https://bit.tube/play?hash=BRlnqjzTFF54tknNmGZT&channel=78900'
     ];
     
     setInterval(mySearch, 5000);
