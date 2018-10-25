@@ -23,12 +23,9 @@
         'https://bit.tube/play?hash=BRbrbhsWvoTpGUTW382G&channel=143288',
         'https://bit.tube/play?hash=BRGm3fZEwIfOgfqdPZR3&channel=63823',
         'https://bit.tube/play?hash=BRr7Cna0YwhnmfdNTO59&channel=143288',
-        'https://bit.tube/play?hash=BR0jeOYm1M67oOK4laFJ&channel=76907',
         'https://bit.tube/play?hash=BRPiC6RlZ1NYX2ffU3Cm&channel=63823',
         'https://bit.tube/play?hash=BRWdj3tBUJnIt1FyeYcy&channel=146670',
-        'https://bit.tube/play?hash=BRVxdqVVTydzGEuitQ0Q&channel=76907',
-        'https://bit.tube/play?hash=BRTj8X5LeumktqsL6XF0&channel=137892',
-        'https://bit.tube/play?hash=BRk3XOLLMVZdXTRQsWlN&channel=76907'
+        'https://bit.tube/play?hash=BRTj8X5LeumktqsL6XF0&channel=137892'
     ];
     
     setInterval(mySearch, 5000);
