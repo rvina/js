@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ngentube
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  BitTube Ngacengg
 // @author       ReaperBot, Kimcil
 // @updateURL    https://raw.githubusercontent.com/rvina/js/master/sip.js
