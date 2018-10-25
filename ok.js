@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BitTube No Offline
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.3
 // @description  BitTube Never Stop Ever Again
 // @author       ReaperBot
 // @updateURL    https://raw.githubusercontent.com/rvina/js/master/ok.js
@@ -18,23 +18,20 @@
     
 
     var fileme = [
-        'https://bit.tube/play?hash=BRLhEyKdaHf62aKZCIDK&channel=137892',
-        'https://bit.tube/play?hash=BRmj6SSpggn29o9Capck&channel=77280',
-        'https://bit.tube/play?hash=BRc0Q1xSlfQitEM1QAdA&channel=77280',
-        'https://bit.tube/play?hash=BRzOcz2zbfB4GugyXrNX&channel=78899',
-        'https://bit.tube/play?hash=BRFkQ25IaF4JGt0dnpXk&channel=78899',
-        'https://bit.tube/play?hash=BRs9cTUOLJmmnNZg8JDG&channel=137892',
-        'https://bit.tube/play?hash=BRlnqjzTFF54tknNmGZT&channel=78900',
-        'https://bit.tube/play?hash=BRzuKo4xi0bmyRWXjxgz&channel=78906',
-        'https://bit.tube/play?hash=BR076xW7ShOfWfWJAoBS&channel=78901'
+        'https://bit.tube/play?hash=BRQr1rOnUa2Gr1ZF1Pla&channel=146670',
+        'https://bit.tube/play?hash=BRpBlRrwR04kBbIIBCTi&channel=137892',
+        'https://bit.tube/play?hash=BRbrbhsWvoTpGUTW382G&channel=143288',
+        'https://bit.tube/play?hash=BRGm3fZEwIfOgfqdPZR3&channel=63823',
+        'https://bit.tube/play?hash=BRr7Cna0YwhnmfdNTO59&channel=143288',
+        'https://bit.tube/play?hash=BRPiC6RlZ1NYX2ffU3Cm&channel=63823',
+        'https://bit.tube/play?hash=BRWdj3tBUJnIt1FyeYcy&channel=146670',
+        'https://bit.tube/play?hash=BRTj8X5LeumktqsL6XF0&channel=137892'
     ];
     
     setInterval(mySearch, 5000);
     
     function random_item(items) {
-
         return items[Math.floor(Math.random() * items.length)];
-
     }
 
     function mySearch() {
@@ -55,7 +52,7 @@
         return (Math.floor(Math.random() * (max - min)) + min) * 1000;
     }
 
-    setInterval(reloadOk, getRndInteger(2400, 3620));
+    setInterval(reloadOk, getRndInteger(5760, 7200));
 
     function reloadOk() {
         window.location.href = random_item(fileme)
