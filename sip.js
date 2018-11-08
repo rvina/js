@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ngentube
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  BitTube Ngacengg
 // @author       ReaperBot, Kimcil
 // @updateURL    https://raw.githubusercontent.com/rvina/js/master/sip.js
@@ -18,13 +18,13 @@
     
 
     var fileme = [
-        'https://bit.tube/play?hash=BRQr1rOnUa2Gr1ZF1Pla&channel=146670',
+        'https://bit.tube/play?hash=BRm5EJzbSq9JqBAsc4Ea&channel=89380',
+        'https://bit.tube/play?hash=BRx0eBHih0R8zMR4Omk9&channel=89393',
+        'https://bit.tube/play?hash=BRdybncfONBtRoW47o7I&channel=78902',
+        'https://bit.tube/play?hash=BRlpCc3D1Skf2xpIzBHV&channel=78897',
         'https://bit.tube/play?hash=BRpBlRrwR04kBbIIBCTi&channel=137892',
-        'https://bit.tube/play?hash=BRbrbhsWvoTpGUTW382G&channel=143288',
-        'https://bit.tube/play?hash=BRGm3fZEwIfOgfqdPZR3&channel=63823',
         'https://bit.tube/play?hash=BRr7Cna0YwhnmfdNTO59&channel=143288',
-        'https://bit.tube/play?hash=BRPiC6RlZ1NYX2ffU3Cm&channel=63823',
-        'https://bit.tube/play?hash=BRWdj3tBUJnIt1FyeYcy&channel=146670',
+        'https://bit.tube/play?hash=BRGm3fZEwIfOgfqdPZR3&channel=63823',
         'https://bit.tube/play?hash=BRTj8X5LeumktqsL6XF0&channel=137892'
     ];
     
@@ -42,7 +42,7 @@
         if (offline || selected || bittube) {
             setTimeout(function () {
                 window.location.href = random_item(fileme)
-            }, 3000);
+            }, 5000);
         }
     }
 
