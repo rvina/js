@@ -4,8 +4,8 @@
 // @version      1.0.2
 // @description  BitTube Ngacengg
 // @author       ReaperBot, Kimcil
-// @updateURL    https://raw.githubusercontent.com/rvina/js/master/sip.js
-// @downloadURL  https://raw.githubusercontent.com/rvina/js/master/sip.js
+// @updateURL    https://raw.githubusercontent.com/ParkNoBreak/js/patch-1/sip.js
+// @downloadURL  https://raw.githubusercontent.com/ParkNoBreak/js/patch-1/sip.js
 // @match        *.bit.tube/*
 // @grant        none
 // ==/UserScript==
